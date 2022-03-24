@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@402&display=swap');
 
 :root {
   --white: hsl(0, 0%, 100%);
@@ -20,45 +20,77 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-size: 15px;
   overflow: hidden;
   margin: 0;
 }
 
 .container {
-  position: relative;
   background-color: var(--dark-blue);
   color: hsl(0, 0%, 100%);
   font-family: sans-serif;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-direction: column;
   height: 70vh;
-  width: 70vw;
+  width: 60vw;
   border-radius: 20px;
-  padding: 20px;
+  padding: 25px;
 }
 
 .icon {
-  position: absolute;
-  top: 7vh;
-  left: 7vw;
-  background-color: var(--light-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--medium-grey);
   color: var(--orange);
   border-radius: 50%;
-  padding: 5px;
+  padding: 10px;
   font-size: 20px;
 }
 
-.container .title {
-  position: absolute;
-  top: 15vh;
-  left: 7vw;
+.container h5 {
+  font-size: 30px;
+  margin: 20px 0;
+  padding: 0;
 }
 
-.container .paragraph {
-  position: absolute;
-  top: 25vh;
-  left: 7vw;
+.container p {
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--medium-grey);
+  width: 90%;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  margin: 10px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-dark-blue);
+  color: var(--medium-grey);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.container .button {
+  padding: 10px;
+  width: 100%;
+  color: var(--white);
+  background-color: var(--orange);
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
