@@ -39,14 +39,13 @@ body {
 }
 
 .icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url('./images/icon-star.svg');
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: var(--very-dark-blue);
-  color: var(--orange);
   border-radius: 50%;
-  padding: 10px;
-  font-size: 20px;
+  height: 50px;
+  width: 50px;
 }
 
 .container h5 {
