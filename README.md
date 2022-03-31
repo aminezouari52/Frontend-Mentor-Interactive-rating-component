@@ -28,10 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop view page 1](./screen-shots/Capture1.PNG.jpg)
-![desktop view page2](./screen-shots/Capture2.PNG.jpg)
-![mobile view page1](./screen-shots/Capture3.PNG.jpg)
-![mobile view page2](./screen-shots/Capture4.PNG.jpg)
+![desktop view page 1](./screen-shots/Capture1.PNG)
+![desktop view page2](./screen-shots/Capture2.PNG)
+![mobile view page1](./screen-shots/Capture3.PNG)
+![mobile view page2](./screen-shots/Capture4.PNG)
 
 ### Links
 
