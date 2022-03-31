@@ -1,6 +1,7 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges helped me improve my coding skills by building this realistic project.
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
+Frontend Mentor challenges helped me improve my coding skills by building this realistic project.
 
 ## Table of contents
 
@@ -49,9 +50,8 @@ Users should be able to:
 
 ### What I learned
 
-In this project I've learnt alot of organisation skills, for example files management how to stores images files and specific files in specific folders and how to access them.
-Also, I've learnt how to use the SVG format, how to generate it and how to use
-in the html file and how to set the icon in the header:
+In this project I've learnt alot of organisation skills, for example files management, how to store specific files in specific folders and how to access them.
+Also, I've learnt how to use the SVG format, how to generate it and how to use it in the html file. Also how to set the icon in the header:
 
 ```html
 <link
@@ -62,14 +62,13 @@ in the html file and how to set the icon in the header:
 />
 ```
 
-I've also learnt how to manage style variables in css like
-colors and fonts and store them in variables using root and how to use the css gradient,
-for examples:
+I've also learnt how to manage style variables in css, like
+colors and fonts and store them in variables using root. And How to use the css gradient, for example:
 
 ```css
 :root {
+  --dark-blue: hsl(213, 20%, 18%);
   --very-dark-blue: hsl(216, 12%, 8%);
-  --background-overlay: hsla(217, 12%, 63%, 0.1);
   --background-radiant: radial-gradient(
     circle at top,
     var(--dark-blue),
@@ -78,17 +77,17 @@ for examples:
 }
 ```
 
-Another skill i've learnt is the max-width property, it was chanllenging to keep the elements width matching the desktop and mobiles devices.
+Another skill i've learnt is the max-width property, it was challenging to keep the elements width matching the desktop and mobiles devices.
 It was also a good opportunity to practice my flex-box skills.
 
 ### Continued development
 
-I want to be able to work on bigger and more complex projects because i find challenging styling many elements at the same time html file.
-I also want to improve my css and javascript skills.
+I want to be able to work on bigger and more complex projects because i find it challenging to style many elements that are in the same html file.
+I also want to improve my javascript skills.
 
 ### Useful resources
 
-- [google fonts](https://fonts.google.com/) - This website helped get the fonts i needed for this project. I really liked this API will use it going forward.
+- [google fonts](https://fonts.google.com/) - This website helped get the font i needed for this project. I really liked this API and will use it going forward.
 - [gradient generator](https://cssgradient.io/) - This is an amazing website which helped me understand the concept of gradient. Not only does it generate the perfect gradient image that you need, but also it shows how the css code is done based on your needs.
 
 ## Author
