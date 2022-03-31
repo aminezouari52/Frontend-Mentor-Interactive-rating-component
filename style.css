@@ -5,8 +5,14 @@
   --orange: hsl(25, 97%, 53%);
   --light-grey: hsl(217, 12%, 63%);
   --medium-grey: hsl(216, 12%, 54%);
-  --dark-blue: hsl(213, 19%, 18%);
+  --dark-blue: hsl(213, 20%, 18%);
   --very-dark-blue: hsl(216, 12%, 8%);
+  --background-overlay: hsla(217, 12%, 63%, 0.1);
+  --background-radiant: radial-gradient(
+    circle at top,
+    var(--dark-blue),
+    var(--very-dark-blue)
+  );
 }
 
 * {
@@ -25,15 +31,15 @@ body {
 }
 
 .container {
-  background-color: var(--dark-blue);
+  background-image: var(--background-radiant);
   color: var(--white);
-  font-family: sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
-  height: 70vh;
-  width: 60vw;
+  height: 60vh;
+  width: 100vw;
+  max-width: 400px;
   border-radius: 20px;
   padding: 25px;
 }
@@ -42,15 +48,15 @@ body {
   background-image: url('./images/icon-star.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--very-dark-blue);
+  background-color: var(--background-overlay);
   border-radius: 50%;
   height: 50px;
   width: 50px;
 }
 
 .container h5 {
-  font-size: 30px;
-  margin: 20px 0;
+  font-size: 25px;
+  margin: 15px 0;
   padding: 0;
 }
 
@@ -59,21 +65,21 @@ body {
   line-height: 25px;
   color: var(--medium-grey);
   width: 90%;
+  margin: 10px 0;
 }
 
 .ratings {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 50vw;
-  margin: 10px;
+  width: 100%;
+  margin: 10px 0;
 }
 
 .rating {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--very-dark-blue);
+  background-color: var(--background-overlay);
   color: var(--medium-grey);
   border-radius: 50%;
   width: 50px;
@@ -89,22 +95,22 @@ body {
 }
 
 .container .button {
-  padding: 10px;
-  width: 100%;
-  color: var(--white);
   background-color: var(--orange);
-  border: none;
+  color: var(--white);
+  width: 100%;
+  padding: 10px;
   font-size: 20px;
+  border: none;
   border-radius: 20px;
-  cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.5s ease;
+  cursor: pointer;
 }
 
 .container .button:hover {
-  color: var(--orange);
   background-color: var(--white);
+  color: var(--orange);
   transition: all 0.5s ease;
 }
 
@@ -119,14 +125,14 @@ body {
 }
 
 .thank-you.active {
-  background-color: var(--dark-blue);
+  background-image: var(--background-radiant);
   color: var(--white);
-  font-family: sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 70vh;
-  width: 60vw;
+  height: 60vh;
+  width: 100vw;
+  max-width: 400px;
   border-radius: 20px;
   padding: 25px;
 }
@@ -134,16 +140,16 @@ body {
 .thank-you.active .img {
   background-image: url('./images/illustration-thank-you.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  height: 100px;
+  height: 150px;
   width: 150px;
-  margin: 20px;
+  margin: 0px;
 }
 
 .thank-you.active h6 {
+  background-color: var(--background-overlay);
   border-radius: 20px;
-  background-color: var(--very-dark-blue);
   padding: 10px 20px;
   color: var(--orange);
   font-size: 15px;
