@@ -28,15 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop view page 1](./screen-shots/Capture1.PNG)
-![desktop view page2](./screen-shots/Capture2.PNG)
-![mobile view page1](./screen-shots/Capture3.PNG)
-![mobile view page2](./screen-shots/Capture4.PNG)
+![](./screen-shots/Capture1.PNG)
+![](./screen-shots/Capture2.PNG)
+![](./screen-shots/Capture3.PNG)
+![](./screen-shots/Capture4.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://aminezouari52.github.io/Frontend-Mentor-Interactive-rating-component/)
 
 ## My process
 
